@@ -1,7 +1,7 @@
 -- CreateTable
 CREATE TABLE "academic_semesters" (
     "id" TEXT NOT NULL,
-    "year" INTEGER NOT NULL,
+    "year" TEXT NOT NULL,
     "title" TEXT NOT NULL,
     "code" TEXT NOT NULL,
     "startMonth" TEXT NOT NULL,
