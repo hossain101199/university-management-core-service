@@ -61,6 +61,7 @@ const getAllSemesters: RequestHandler = catchAsync(async (req, res) => {
     data: result.data,
   });
 });
+
 export const academicSemesterController = {
   createSemester,
   getSingleSemester,
